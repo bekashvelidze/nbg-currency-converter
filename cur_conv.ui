@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>448</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Georgian National Bank Currency Converter</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #fff;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>600</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #26315E</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>33</y>
+       <width>581</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Semibold</family>
+       <pointsize>22</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;</string>
+     </property>
+     <property name="text">
+      <string>Georgian National Bank Currency Converter</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>199</x>
+      <y>140</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Semibold</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>From currency</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="currency">
+    <property name="geometry">
+     <rect>
+      <x>305</x>
+      <y>200</y>
+      <width>170</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Semibold</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align: center;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Choose currency</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>USD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EUR</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GBP</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RUB</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AED</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AMD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AUD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AZN</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BGN</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BYR</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CAD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CHF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CNY</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CZK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DKK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EEK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EGP</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>HKD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>HUF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ILS</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>INR</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>IRR</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ISK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>JPY</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>KGS</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>KWD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>KZT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LTL</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LVL</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MDL</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NOK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NZD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PLN</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RON</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SEK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SGD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>TJS</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>TMT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>TRY</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>UAH</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>UZS</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="amount">
+    <property name="geometry">
+     <rect>
+      <x>115</x>
+      <y>200</y>
+      <width>170</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Semibold</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhNone</set>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Enter amount</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>193</x>
+      <y>250</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Semibold</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>You will get in GEL</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="result">
+    <property name="geometry">
+     <rect>
+      <x>184</x>
+      <y>310</y>
+      <width>220</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Semibold</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="convert">
+    <property name="geometry">
+     <rect>
+      <x>184</x>
+      <y>380</y>
+      <width>220</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Semibold</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Convert</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>amount</tabstop>
+  <tabstop>currency</tabstop>
+  <tabstop>result</tabstop>
+  <tabstop>convert</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
